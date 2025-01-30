@@ -1,6 +1,6 @@
 # Setup
 
-- create database
+-x- create database
 
 ```
 createdb acme_auth_store_db
@@ -50,3 +50,4 @@ node server/index.js
 JWT for jwt secret
 DATABASE_URL for postgres database
 ```
+# The-Acme-Auth-Store
