@@ -51,7 +51,5 @@ JWT for jwt secret
 DATABASE_URL for postgres database
 ```
 # The-Acme-Auth-Store
-# The-Acme-Auth-Store
-# The-Acme-Auth-Store
-# block-36
+
 # Unit4.Block36.Workshop.Starter
