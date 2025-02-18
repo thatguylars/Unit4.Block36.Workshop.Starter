@@ -1,10 +1,13 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
+
 
 // eslint-disable-next-line react/prop-types
 const Register = ({ register }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  
 
   const submit = async (ev) => {
     ev.preventDefault();
@@ -32,6 +35,9 @@ const Register = ({ register }) => {
       {error && <p className="error">{error}</p>}
     </form>
   );
+};
+Register.propTypes = {
+  register: PropTypes.func.isRequired,
 };
 
 export default Register;

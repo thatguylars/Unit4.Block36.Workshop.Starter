@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 // eslint-disable-next-line react/prop-types
 const Login = ({ login }) => {
@@ -32,6 +33,9 @@ const Login = ({ login }) => {
       {error && <p className="error">{error}</p>}
     </form>
   );
+};
+Login.propTypes = {
+  login: PropTypes.func.isRequired,
 };
 
 export default Login;
